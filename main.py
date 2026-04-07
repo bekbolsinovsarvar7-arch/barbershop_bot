@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.filters import Command
 
-API_TOKEN = os.getenv("8323998350:AAFuTxFKpAB06oLJ1ZV4DYXSymojMmkNxnE")
+API_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 1642665028
 
 logging.basicConfig(level=logging.INFO)
